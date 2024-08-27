@@ -1,0 +1,161 @@
+.bannerUnoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.bannerUnoParrafo{
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.carouselSlide{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.bannerDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.bannerDosDiv{
+    align-content: center;
+}
+.bannerDosDiv h2{
+letter-spacing: 2px;
+font-size: 40px;
+margin-bottom: 30px;
+}
+.fotoIndexSeccion2 {
+    width: 50vw;
+    height: 50vh;
+}
+.bannerTres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+.bannerTres img{
+    width: 25vw;
+}
+.bannerCuatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+.bannerCuatro div{
+    align-content: center;
+    padding-right: 2rem;
+    margin-right: 2rem;
+}
+.bannerCuatro div h2{
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.fotoIndexSeccion4{
+    width: 90vw;
+    height: 50vh;
+}
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.encabezadoDestinos{
+    background-image: url(../assets/norteargentinofoto2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seccionDestinosUno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.divDestinosSeccionUno{
+    text-align: center;
+    margin-top: 1rem;
+}
+.fotoSeccionDestinosUno{
+    width: 25vw;
+}
+.encabezadoSobreTuViaje{
+    background-image: url(../assets/excursionfoto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seccionSobreTuViaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.divSeccionSobreTuViaje{
+    text-align: center;
+    margin-top: 1rem;
+}
+.encabezadoAcercaDeNosotros{
+    background-image: url(../assets/fotodeoficina.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seccionUno{
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 3rem;
+    padding-bottom: 60px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    text-align: left;
+}
+.seccionDos{
+    display: flex;
+    flex-direction: row;
+}
+.encabezadoContacto{
+    background-image: url(../assets/sobrenosotrosfoto2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
