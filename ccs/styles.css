@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: white
+}
+.navbar {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.navbar-nav li {
+    padding-top: 2rem;
+}
 .bannerUnoDiv{
     display: flex;
     flex-direction: column;
@@ -14,7 +24,7 @@
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 .carouselSlide img {
     width: 100%;
@@ -72,6 +82,14 @@ margin-bottom: 30px;
     height: auto;
     display: block;
     max-width: 100%
+}
+.linksBanner a{
+    background-color: #039;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
 }
 footer {
     background-color: #7ec3fb;
