@@ -254,6 +254,24 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-nav li {
+        padding-top: 0;
+    }
+    .navbar-toggler {
+        margin-left: auto;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
     .bannerDos {
         flex-direction: column;
         padding-right: 0;
@@ -272,7 +290,8 @@ footer {
         padding-right: 80px;
     }
     .fotoIndexSeccion2 {
-        width: 80%;
+        width: 100%;
+        height: auto;
         margin-bottom: 1.5rem;
     }
     .bannerTres {
@@ -310,32 +329,35 @@ footer {
         text-align: center;
     }
     .bannerCuatro img {
+        width: 100%;
+        height: auto;
         padding-left: 2rem;
         padding-right: 0
     }
 
     .fotoIndexSeccion4 {
         width: 100%; 
+        height: auto;
         margin-top: 20px;
     }
     .divFooter {
         flex-direction: column;
         align-items: center;
-        padding: 2rem 1rem; /* Ajuste de padding para pantallas pequeñas */
+        padding: 2rem 1rem; 
     }
 
     .divFooter div {
-        margin-bottom: 2rem; /* Espaciado entre secciones del footer */
-        text-align: center;  /* Centrar el contenido en cada bloque */
+        margin-bottom: 2rem; 
+        text-align: center;  
     }
 
     .divFooter iframe {
-        width: 100%; /* Ajustar el mapa para que ocupe el ancho completo en pantallas pequeñas */
-        height: auto; /* Ajustar la altura del iframe */
+        width: 100%; 
+        height: auto;
     }
 
     .footer-bottom p {
         text-align: center;
-        font-size: 0.9rem; /* Reducir un poco el tamaño del texto en pantallas pequeñas */
+        font-size: 0.9rem; 
     }
 }
