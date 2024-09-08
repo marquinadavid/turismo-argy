@@ -253,7 +253,7 @@ footer {
     padding-right: 2rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 400px) {
     .navbar {
         padding-left: 1rem;
         padding-right: 1rem;
