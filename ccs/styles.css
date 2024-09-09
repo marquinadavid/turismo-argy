@@ -441,5 +441,10 @@ footer {
     .social-links {
         gap: 1rem;
         font-size: 1.3rem;
+        background-color: white;
+}
+    .social-links a {
+    display: inline-block; 
+    margin: 0.5rem; 
 }
 }
